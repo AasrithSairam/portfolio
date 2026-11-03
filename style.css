@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  color: black;
+  line-height: 1.6;
+}
+
+a {
+  color: black;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 43px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+section p {
+  margin-bottom: 10px;
+}
+
+.intro {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 49%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 23px;
+}
+
+.intro h2 {
+  font-size: 40px;
+  border: none;
+}
+
+.intro p {
+  font-size: 18px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px 22px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: black;
+}
+
+.job {
+  border-left: 3px solid black;
+  padding-left: 15px;
+  margin-top: 25px;
+}
+
+.job h3 {
+  font-size: 18px;
+}
+
+.date {
+  color: grey;
+  font-size: 14px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid white;
+  padding: 20px;
+  width: 260px;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.skills li {
+  border: 1px solid black;
+  padding: 6px 14px;
+}
+
+.item {
+  margin-top: 12px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
